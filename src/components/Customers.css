@@ -1,0 +1,63 @@
+.customerCard:hover {
+    cursor: pointer;
+    background-color: #2c2a25 !important;
+}
+
+
+.customerCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: #17171b;
+    box-shadow: 5px 5px 15px black;
+    color: #cfcccd;
+    padding: 20px;
+    overflow: auto;
+    min-width: 550px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.customerDetailsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #17171b;
+    box-shadow: 5px 5px 15px black;
+    color: #cfcccd;
+    padding: 20px;
+    overflow: auto;
+    min-width: 550px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+    overflow: auto;
+    margin-top: 35px;
+}
+
+.addCustomerCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    box-shadow: 5px 5px 15px black;
+    color: #cfcccd;
+    padding: 20px;
+    overflow: auto;
+}
+#editCustomerButton:hover {
+    cursor: pointer;
+}
+#deleteCustomerButton:hover {
+    cursor: pointer;
+}
+#addCustomerButton:hover {
+    cursor: pointer;
+}
+#editLocationButton:hover {
+    cursor: pointer;
+}
+#deleteLocationButton:hover {
+    cursor: pointer;
+}
+#addLocationButton:hover {
+    cursor: pointer;
+}
